@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+  --primary-color:#4f46e5;
+  --secondary-color:#18181b;
+}
+body{
+  background-color: var(--secondary-color);
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;;
+}
+h1{
+  text-align: center;
+}
+.container
+{
+  width:50%;
+  margin: auto;
+}
+input{
+  display: block;
+  margin:auto;
+  width:30%;
+  cursor: pointer;
+  font-size: 1.5rem;;
+}
+label{
+  display: block;
+  text-align: center;
+  margin: 1rem 0rem;;
+}
+/*** button ***/
+#check-button
+{
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+#check-button:hover
+{
+  border:0.1rem solid white;
+  background-color: white;
+  color: var(--secondary-color);
+}
+/*** output div ***/
+#output-div,#output-div2,#output-div3
+{
+  margin-top:1rem;
+  text-align: center;
+}
